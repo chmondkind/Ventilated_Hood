@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+
+
+
+
+## Welcome to the Ventilated Hood Repository
 
 You can use the [editor on GitHub](https://github.com/chmondkind/Ventilated_Hood/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
