@@ -33,7 +33,7 @@ Examples of unacceptable behavior by participants include:
  address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
  professional setting
-* Not following the guidelines layed out in the project plan, especially 
+* Not following the guidelines layed out in the project execution & quality plan, especially 
 those concerning good documentation practice and deviation management
 
 ## Our Responsibilities
