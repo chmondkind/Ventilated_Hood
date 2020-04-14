@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="object" property="og:type">
+<meta content="Open Hardware Repository" property="og:site_name">
+<meta content="Cern ohl version 2 · Wiki · Projects / CERN Open Hardware Licence" property="og:title">
+<meta content="A project devoted to developing and discussing the CERN Open Hardware Licence. [More info at the Wiki page](https://www.ohwr.org/project/cernohl/wiki)" property="og:description">
+<meta content="https://ohwr.org/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="Cern ohl version 2 · Wiki · Projects / CERN Open Hardware Licence" property="twitter:title">
+<meta content="A project devoted to developing and discussing the CERN Open Hardware Licence. [More info at the Wiki page](https://www.ohwr.org/project/cernohl/wiki)" property="twitter:description">
+<meta content="https://ohwr.org/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>Cern ohl version 2 · Wiki · Projects / CERN Open Hardware Licence · Open Hardware Repository</title>
+<meta content="A project devoted to developing and discussing the CERN Open Hardware Licence. [More info at the Wiki page](https://www.ohwr.org/project/cernohl/wiki)" name="description">
+<link rel="shortcut icon" type="image/png" href="/uploads/-/system/appearance/favicon/1/favicon_ohwr.ico" id="favicon" data-original-href="/uploads/-/system/appearance/favicon/1/favicon_ohwr.ico" />
+<link rel="stylesheet" media="all" href="/assets/application-5e11f017cc719f3e7c77f1024cdea9381ee9b21f47fe391ef5d29a7f3c94ce4a.css" />
+<link rel="stylesheet" media="print" href="/assets/print-c8ff536271f8974b8a9a5f75c0ca25d2b8c1dceb4cff3c01d1603862a0bdcbfc.css" />
+
+
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://ohwr.org/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=30;gon.asset_host=null;gon.webpack_public_path="/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.gitlab_url="https://ohwr.org";gon.revision="98f8423";gon.gitlab_logo="/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg";gon.sprite_file_icons="/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors=["#0033CC","#428BCA","#44AD8E","#A8D695","#5CB85C","#69D100","#004E00","#34495E","#7F8C8D","#A295D6","#5843AD","#8E44AD","#FFECDB","#AD4363","#D10069","#CC0033","#FF0000","#D9534F","#D1D100","#F0AD4E","#AD8D43"];
+//]]>
+</script>
+
+
+<script src="/assets/webpack/runtime.5866806a.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.44856d47.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons~pages.projects~pages.projects.activity~pages.projects.artifacts.browse~pages.projects.artifa~1485fd35.3b81e7e7.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons~pages.groups.milestones.edit~pages.groups.milestones.new~pages.projects.blame.show~pages.pro~e382f304.7b1737ae.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.projects.wikis.c431f327.chunk.js" defer="defer"></script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="mNOJzcvzrAkqFF/yr40yP3ATn12NHVPGy4aFMVdQUngzuILWiuZav+900s2q4C/Hks1qsM4xDqamvK9owNDXLg==" />
+<meta content="origin-when-cross-origin" name="referrer">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+</head>
+
+<body class="ui-indigo " data-group="" data-page="projects:wikis:show" data-project="cernohl">
+
+
+<header class="navbar navbar-gitlab qa-navbar navbar-expand-sm">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<a title="Dashboard" id="logo" href="/"><img data-src="/uploads/-/system/appearance/header_logo/1/logo-ohwr_transparent.png" class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li class="home"><a title="Projects" class="dashboard-shortcuts-projects" href="/explore">Projects
+</a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></li><li>
+<a title="About GitLab CE" href="/help">Help</a>
+</li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item d-none d-sm-none d-md-block m-auto">
+<div class="search search-form">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump to…" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" tabindex="1" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" aria-label="Search or jump to…" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
+</div>
+<svg class="s16 search-icon"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" class="js-search-group-options" />
+<input type="hidden" name="project_id" id="search_project_id" value="10732" class="js-search-project-options" data-project-path="cernohl" data-name="CERN Open Hardware Licence" data-issues-path="/project/cernohl/issues" data-mr-path="/project/cernohl/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="scope" id="scope" value="wiki_blobs" />
+<input type="hidden" name="repository_ref" id="repository_ref" />
+
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="10732"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-sm-none d-md-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=10732"><svg class="s16"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#search"></use></svg>
+</a></li>
+<li class="nav-item">
+<div>
+<a class="btn btn-sign-in" href="/users/sign_in?redirect_to_referer=yes">Sign in</a>
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page page-gutter page-with-contextual-sidebar right-sidebar-expanded wiki-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="CERN Open Hardware Licence" href="/project/cernohl"><div class="avatar-container s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg2">C</div>
+</div>
+<div class="sidebar-context-title">
+CERN Open Hardware Licence
+</div>
+</a></div>
+<ul class="sidebar-top-level-items">
+<li class="home"><a class="shortcuts-project" href="/project/cernohl"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/project/cernohl"><strong class="fly-out-top-item-name">
+Project
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Project details" class="shortcuts-project" href="/project/cernohl"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" href="/project/cernohl/activity"><span>Activity</span>
+</a></li>
+<li class=""><a title="Cycle Analytics" class="shortcuts-project-cycle-analytics" href="/project/cernohl/cycle_analytics"><span>Cycle Analytics</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-issues" href="/project/cernohl/issues"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+19
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/project/cernohl/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+19
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/project/cernohl/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Board" href="/project/cernohl/boards"><span>
+Board
+</span>
+</a></li><li class=""><a title="Labels" href="/project/cernohl/labels"><span>
+Labels
+</span>
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/project/cernohl/milestones"><span>
+Milestones
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-merge_requests" href="/project/cernohl/merge_requests"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/project/cernohl/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li><li class="active"><a class="shortcuts-wiki" href="/project/cernohl/wikis/home"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item active"><a href="/project/cernohl/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li><li class=""><a target="_blank" href="https://forums.ohwr.org/c/cernohl"><div class="nav-icon-container">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="_discourse.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient2389"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2387" />
+    </linearGradient>
+    <style
+       id="style881">.cls-1{fill:#231f20;}.cls-2{fill:#fff9ae;}.cls-3{fill:#00aeef;}.cls-4{fill:#00a94f;}.cls-5{fill:#f15d22;}.cls-6{fill:#e31b23;}</style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2389"
+       id="linearGradient2391"
+       x1="1.2263591"
+       y1="7.9999999"
+       x2="14.773641"
+       y2="7.9999999"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1916"
+     inkscape:window-height="1176"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="41.7193"
+     inkscape:cx="3.7610822"
+     inkscape:cy="5.2928144"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     id="path889"
+     d="M 8.3140328,1.8630293 A 5.8608547,5.8608547 0 0 0 3.1630792,10.513443 L 2.1028613,13.923934 5.9100072,13.063897 A 5.8590012,5.8590012 0 1 0 8.3195933,1.8630293 Z"
+     class="cls-2"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:url(#linearGradient2391);stroke-width:1.19327056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>
+
+</div>
+<span class="nav-item-name">
+Discourse
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="https://forums.ohwr.org/c/cernohl"><strong class="fly-out-top-item-name">
+Discourse
+</strong>
+</a></li></ul>
+</li><li class=""><a title="Members" class="shortcuts-tree" href="/project/cernohl/settings/members"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#users"></use></svg>
+</div>
+<span class="nav-item-name">
+Members
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/project/cernohl/project_members"><strong class="fly-out-top-item-name">
+Members
+</strong>
+</a></li></ul>
+</li><a class="toggle-sidebar-button js-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="icon-angle-double-left"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#angle-double-left"></use></svg>
+<svg class="icon-angle-double-right"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#angle-double-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/project/cernohl/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/project/cernohl/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/project/cernohl/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+
+<div class="mobile-overlay"></div>
+<div class="alert-wrapper">
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited limit-container-width" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<i aria-hidden="true" data-hidden="true" class="fa fa-bars"></i>
+</button><div class="breadcrumbs-links js-title-container">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/project">Projects</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#angle-right"></use></svg></li> <li><a href="/project/cernohl"><span class="breadcrumb-item-text js-breadcrumb-item-text">CERN Open Hardware Licence</span></a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#angle-right"></use></svg></li>
+<li><a href="/project/cernohl/wikis/home">Wiki</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#angle-right"></use></svg></li>
+<li class="dropdown">
+<button aria-label="Show parent pages" class="text-expander has-tooltip js-breadcrumbs-collapsed-expander" data-container="body" data-toggle="dropdown" title="Show parent pages" type="button">
+<i aria-hidden="true" data-hidden="true" class="fa fa-ellipsis-h"></i>
+</button>
+<svg class="s8 breadcrumbs-list-angle"><use xlink:href="/assets/icons-d23cd916bb585cd0797512298022ad487818b74e89464b6738f695aa33107e94.svg#angle-right"></use></svg>
+<div class="dropdown-menu">
+<ul>
+<li style="text-indent: 0px;"><a href="/project/cernohl/wikis/Documents/">Documents</a></li>
+</ul>
+</div>
+</li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/project/cernohl/wikis/Documents/CERN-OHL-version-2">Cern ohl version 2</a></h2>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+<div class="flash-container flash-container-page">
+</div>
+
+</div>
+<div class="container-fluid container-limited limit-container-width">
+<div class="content" id="content-body">
+<div class="wiki-page-header has-sidebar-toggle">
+<button class="btn btn-default sidebar-toggle js-sidebar-wiki-toggle" role="button" type="button">
+<i aria-hidden="true" data-hidden="true" class="fa fa-angle-double-left"></i>
+</button>
+<div class="nav-text">
+<h2 class="wiki-page-title">Cern ohl version 2</h2>
+<span class="wiki-last-edit-by">
+Last edited by <strong>Javier Serrano</strong>
+<time class="js-timeago" title="Apr 3, 2020 9:32am" datetime="2020-04-03T09:32:28Z" data-toggle="tooltip" data-placement="top" data-container="body">Apr 03, 2020</time>
+</span>
+</div>
+<div class="nav-controls">
+<a class="btn" href="/project/cernohl/wikis/Documents/CERN-OHL-version-2/history">Page history
+</a>
+</div>
+</div>
+<div class="prepend-top-default append-bottom-default">
+<div class="wiki">
+<p dir="auto">This is the home of the CERN Open Hardware Licence version 2. The licence consists of three variants:</p>&#x000A;<ul dir="auto">&#x000A;<li>A strongly-reciprocal variant, CERN-OHL-S (<a href="/project/cernohl/wikis/uploads/002d0b7d5066e6b3829168730237bddb/cern_ohl_s_v2.txt">txt</a>, <a href="/project/cernohl/wikis/uploads/ee7922912e58f8676e1d7ff841b391cb/cern_ohl_s_v2.pdf">pdf</a>). User guide (<a href="/project/cernohl/wikis/uploads/8b67be37f8de86cb4838ea0bd968212e/cern_ohl_s_v2_howto.odt">odt</a>, <a href="/project/cernohl/wikis/uploads/63521421fb97360cee4af08f24866202/cern_ohl_s_v2_howto.pdf">pdf</a>).</li>&#x000A;<li>A weakly-reciprocal variant, CERN-OHL-W (<a href="/project/cernohl/wikis/uploads/10946616b8cbcdef2274a58d9f3a98fb/cern_ohl_w_v2.txt">txt</a>, <a href="/project/cernohl/wikis/uploads/b94a1a92b29984226c56a0dd4dca0d39/cern_ohl_w_v2.pdf">pdf</a>). User guide (<a href="/project/cernohl/wikis/uploads/eb5fac4e02180da7a4d15f99ab48ab7c/cern_ohl_w_v2_howto.odt">odt</a>, <a href="/project/cernohl/wikis/uploads/c2e5e9d297949b5c2d324a6cbf6adda0/cern_ohl_w_v2_howto.pdf">pdf</a>).</li>&#x000A;<li>A permissive variant, CERN-OHL-P (<a href="/project/cernohl/wikis/uploads/5a639eaec042c5584104afdbc9350245/cern_ohl_p_v2.txt">txt</a>, <a href="/project/cernohl/wikis/uploads/055bd8b281d0805a3a38188838b370e1/cern_ohl_p_v2.pdf">pdf</a>). User guide (<a href="/project/cernohl/wikis/uploads/f123aac388675e12b308de0ade1a0278/cern_ohl_p_v2_howto.odt">odt</a>, <a href="/project/cernohl/wikis/uploads/8a6b5d01f71c207c49493e4d114d61e6/cern_ohl_p_v2_howto.pdf">pdf</a>).</li>&#x000A;</ul>&#x000A;<p dir="auto">You may want to read the <a href="https://ohwr.org/project/cernohl/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf">rationale</a> document, which explains the reasons for some of the drafting decisions, and the list of <a href="https://ohwr.org/project/cernohl/wikis/faq">Frequently Asked Questions</a>. If you would like to provide feedback on the licence or ask questions, please contact the authors (<a href="https://phonebook.cern.ch/phonebook/#personDetails/?id=610905" rel="nofollow noreferrer noopener" target="_blank">Myriam Ayass</a>, <a href="https://moorcrofts.com/team/andrew-katz/" rel="nofollow noreferrer noopener" target="_blank">Andrew Katz</a> and <a href="https://phonebook.cern.ch/phonebook/#personDetails/?id=476608" rel="nofollow noreferrer noopener" target="_blank">Javier Serrano</a>) directly or use the <a href="https://forums.ohwr.org/c/cernohl" rel="nofollow noreferrer noopener" target="_blank">forum</a>.</p>
+</div>
+</div>
+<aside class="right-sidebar right-sidebar-expanded wiki-sidebar js-wiki-sidebar js-right-sidebar" data-offset-top="50" data-spy="affix">
+<div class="sidebar-container">
+<div class="block wiki-sidebar-header append-bottom-default">
+<a class="gutter-toggle float-right d-block d-sm-block d-md-none js-sidebar-wiki-toggle" href="#">
+<i aria-hidden="true" data-hidden="true" class="fa fa-angle-double-right"></i>
+</a>
+<a class="" href="/project/cernohl/wikis/git_access"><i aria-hidden="true" data-hidden="true" class="fa fa-cloud-download append-right-5"></i>
+<span>Clone repository</span>
+</a></div>
+<div class="blocks-container">
+<div class="block block-first">
+<ul class="wiki-pages">
+<li class="">
+<a href="/project/cernohl/wikis/CERN-OHL-v2-draft">Cern ohl v2 draft
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/Documents">Documents
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/Home">Home
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/News">News
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/cernohlideasfor12">Cernohlideasfor12
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/cernohlprojects">Cernohlprojects
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/faq">Faq
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/translations">Translations
+</a></li>
+
+<li>
+Documents
+<ul>
+<li class="">
+<a href="/project/cernohl/wikis/Documents/CERN-OHL---Draft-revisions">Cern ohl   draft revisions
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/Documents/CERN-OHL-version-1.0">Cern ohl version 1.0
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/Documents/CERN-OHL-version-1.1">Cern ohl version 1.1
+</a></li>
+
+<li class="">
+<a href="/project/cernohl/wikis/Documents/CERN-OHL-version-1.2">Cern ohl version 1.2
+</a></li>
+
+<li class="active">
+<a href="/project/cernohl/wikis/Documents/CERN-OHL-version-2">Cern ohl version 2
+</a></li>
+
+
+</ul>
+</li>
+<li>
+uploads/002d0b7d5066e6b3829168730237bddb
+<ul>
+<li class="">
+<a href="/project/cernohl/wikis/uploads/002d0b7d5066e6b3829168730237bddb/cern_ohl_s_v2">Cern_ohl_s_v2
+</a></li>
+
+
+</ul>
+</li>
+<li>
+uploads/10946616b8cbcdef2274a58d9f3a98fb
+<ul>
+<li class="">
+<a href="/project/cernohl/wikis/uploads/10946616b8cbcdef2274a58d9f3a98fb/cern_ohl_w_v2">Cern_ohl_w_v2
+</a></li>
+
+
+</ul>
+</li>
+
+</ul>
+</div>
+<div class="block">
+<a class="btn btn-block" href="/project/cernohl/wikis/pages">More Pages
+</a></div>
+</div>
+</div>
+</aside>
+<div class="modal" id="modal-new-wiki">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="page-title">New Wiki Page</h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form class="new-wiki-page">
+<div class="form-group">
+<label for="new_wiki_path"><span>Page slug</span>
+</label><input type="text" name="new_wiki_path" id="new_wiki_path" placeholder="how-to-setup" class="form-control" required="required" data-wikis-path="/project/cernohl/wikis" autofocus="autofocus" />
+<span class="new-wiki-page-slug-tip">
+<i aria-hidden="true" data-hidden="true" class="fa fa-lightbulb-o"></i>
+Tip: You can specify the full path for the new file. We will automatically create any missing directories.
+</span>
+</div>
+<div class="form-actions">
+<button name="button" type="submit" class="build-new-wiki btn btn-success">Create page</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
+
