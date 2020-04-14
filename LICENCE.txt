@@ -1,4 +1,4 @@
-Copyright (c) [2020] [Ralph Lawrence Wunderlin; mondkind@mondkind.ch]
+Copyright (c) [2020] [Ralph Lawrence Wunderlin & Paul Kindt]
 
 This source describes Open Hardware and is licensed under the CERN-OHL-P v2
 You may redistribute and modify this documentation and make products using 
