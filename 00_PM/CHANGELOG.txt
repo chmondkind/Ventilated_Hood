@@ -1,0 +1,9 @@
+CERN Open Hardware Licence Version 2 - Permissive
+
+CHANGELOG
+#########
+
+
+The Changelog is located in the files supplied in this compressed
+archive.
+
