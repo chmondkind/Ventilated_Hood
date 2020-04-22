@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-22T11:41:41.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="zRdFKy-iI04rXE9uVGGA" version="13.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-22T11:41:49.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="B6_3hd6K2Ui_IlOGq22G" version="13.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="177" dy="122" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,7 +271,7 @@
         <mxCell id="sy_c0uOwFj8b0XGYrjei-1" value="SPI RAM&lt;br&gt;(opt.)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;dashed=1;dashPattern=1 2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="226.35" y="537.94" width="75.29411764705883" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="Tt6PZbP3-_Q91sgkzyw_-4" value="Cloud" parent="WIyWlLk6GJQsqaUBKTNV-0" visible="0" />
+        <mxCell id="Tt6PZbP3-_Q91sgkzyw_-4" value="Cloud" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="Tt6PZbP3-_Q91sgkzyw_-5" value="TBD&lt;br&gt;by Al" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;rotation=90;" parent="Tt6PZbP3-_Q91sgkzyw_-4" vertex="1">
           <mxGeometry x="-18" y="44" width="879" height="793" as="geometry" />
         </mxCell>
