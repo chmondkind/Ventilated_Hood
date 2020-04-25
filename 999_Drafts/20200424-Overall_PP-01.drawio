@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-25T15:47:25.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="xT8clCDejjnxOCVwAHP3" version="13.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-25T15:50:32.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="aOdVh6IC-HXo9f2uPQOt" version="13.0.1" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="25934" dy="25310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
             <mxPoint x="-2110" y="-8360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VLajAe8EBIXrUqeP0Phr-98" value="Relations" style="" parent="0" />
+        <mxCell id="VLajAe8EBIXrUqeP0Phr-98" value="Relations" style="locked=1;" parent="0" />
         <mxCell id="VLajAe8EBIXrUqeP0Phr-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;strokeWidth=30;fontSize=400;fontColor=#000000;" edge="1" parent="VLajAe8EBIXrUqeP0Phr-98" source="VLajAe8EBIXrUqeP0Phr-101" target="VLajAe8EBIXrUqeP0Phr-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -190,10 +190,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VLajAe8EBIXrUqeP0Phr-126" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698381-icon-72-documents-128.png;fillColor=#ffffff;fontSize=120;fontColor=#000000;" vertex="1" parent="SAxdaMQ0HxBdEHZQTj7v-64">
-          <mxGeometry x="-1960" y="-2360" width="1130" height="1130" as="geometry" />
+          <mxGeometry x="-2679.85" y="-2360" width="1130" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="VLajAe8EBIXrUqeP0Phr-127" value="Released &lt;br&gt;Design &lt;br&gt;Documents" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=120;fontColor=#000000;labelBorderColor=none;labelBackgroundColor=#ffffff;" vertex="1" parent="SAxdaMQ0HxBdEHZQTj7v-64">
-          <mxGeometry x="-1630" y="-1870" width="620" height="440" as="geometry" />
+          <mxGeometry x="-2330" y="-1890" width="620" height="440" as="geometry" />
         </mxCell>
         <mxCell id="VLajAe8EBIXrUqeP0Phr-134" value="&lt;font style=&quot;font-size: 250px&quot;&gt;Document List&lt;br&gt;Change and Deviation Management&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=400;fontColor=#000000;rotation=90;" vertex="1" parent="SAxdaMQ0HxBdEHZQTj7v-64">
           <mxGeometry x="610" y="-4872" width="4020" height="1070" as="geometry" />
@@ -216,17 +216,23 @@
         <mxCell id="VLajAe8EBIXrUqeP0Phr-167" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/files-vol-2-2/512/10-128.png;fontSize=150;" vertex="1" parent="VLajAe8EBIXrUqeP0Phr-166">
           <mxGeometry width="1010" height="1010" as="geometry" />
         </mxCell>
-        <mxCell id="VLajAe8EBIXrUqeP0Phr-168" value="Test&lt;br&gt;Specifi-&lt;br&gt;cations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=120;fontColor=#000000;labelBackgroundColor=#FFFFFF;" vertex="1" parent="VLajAe8EBIXrUqeP0Phr-166">
+        <mxCell id="VLajAe8EBIXrUqeP0Phr-168" value="Test&lt;br&gt;Specifi-&lt;br&gt;cations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=120;fontColor=#000000;labelBackgroundColor=#CCFFE6;" vertex="1" parent="VLajAe8EBIXrUqeP0Phr-166">
           <mxGeometry x="295" y="430" width="420" height="440" as="geometry" />
         </mxCell>
         <mxCell id="VLajAe8EBIXrUqeP0Phr-170" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698381-icon-72-documents-128.png;fillColor=#ffffff;fontSize=120;fontColor=#000000;" vertex="1" parent="SAxdaMQ0HxBdEHZQTj7v-64">
           <mxGeometry x="-3865" y="-2390" width="1130" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="VLajAe8EBIXrUqeP0Phr-118" value="Released&lt;br&gt;Test&lt;br&gt;Specifications" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=120;fontColor=#000000;labelBackgroundColor=#FFFFFF;" vertex="1" parent="SAxdaMQ0HxBdEHZQTj7v-64">
-          <mxGeometry x="-3660" y="-1840" width="760" height="440" as="geometry" />
+          <mxGeometry x="-3630" y="-1910" width="760" height="440" as="geometry" />
         </mxCell>
         <mxCell id="VLajAe8EBIXrUqeP0Phr-174" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/digital-marketing-gradient-rave-and-glow/512/Data_Analysis-128.png;direction=south;rotation=-90;" vertex="1" parent="SAxdaMQ0HxBdEHZQTj7v-64">
           <mxGeometry x="-2440" y="-690" width="850" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="VLajAe8EBIXrUqeP0Phr-178" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.intune_certificate_profiles;labelBackgroundColor=#F8CECC;fontSize=400;fontColor=#000000;" vertex="1" parent="SAxdaMQ0HxBdEHZQTj7v-64">
+          <mxGeometry x="-1330" y="-2310" width="870" height="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="VLajAe8EBIXrUqeP0Phr-180" value="Certificates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=130;fontColor=#000000;labelBorderColor=none;labelBackgroundColor=#ffffff;" vertex="1" parent="SAxdaMQ0HxBdEHZQTj7v-64">
+          <mxGeometry x="-1280" y="-1770" width="670" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
